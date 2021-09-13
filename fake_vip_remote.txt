@@ -199,6 +199,3 @@ https:\/\/api\.termius\.com\/api\/.+\/bulk\/account\/ url script-response-body h
 
 #Muscle Booster
 ^https:\/\/menscoach-api\.asqq\.io\/prod\/user$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/musclebooster.js
-
-#Endlessgoogle
-^https?:\/\/www\.google\..*\/search url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/endlessgoogle.js
