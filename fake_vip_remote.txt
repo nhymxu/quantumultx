@@ -5,13 +5,13 @@ hostname = www.google.*, api.textnow.me, *.videostarapp.com, avatar-nct.nixcdn.c
 ^https:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ url script-response-body http://hs.nhymxu.info:8008/quantumultx/Scripts/adguard.js
 
 # elsa response
-^https:\/\/pool\.elsanow\.io\/user\/api\/v1\/purchase$ url script-response-body http://hs.nhymxu.info:8008/quantumultx/Scripts/elsa-response.js
+#^https:\/\/pool\.elsanow\.io\/user\/api\/v1\/purchase$ url script-response-body http://hs.nhymxu.info:8008/quantumultx/Scripts/elsa-response.js
 
 # elsa rewrite
 #^https:\/\/pool\.elsanow\.io\/.*$  url request-header (\r\n)x-session-token:.+(\r\n) request-header $1x-session-token: F3S0w0bysBQFdbjtxpFuruSAapef5RGwJ2SKaty+/RAShebJYgzo+f46k1UytIM8c5O0U5xzoMaO2zyRh7ifnIgZDGEMuSSkTb66Jk8KoHa4cHkHIxXtFC9ylek2EZida3S+ZXbNb85GRLPd4PH7bZTlNoMSsFbTdh61mSr85FRZ+/ql4F0ygeYD9CIAGPrPFtvHrRac+W2zg6JzjULbgw==
 
 # elsa rewrite header
-^https:\/\/pool\.elsanow\.io\/.*$ url script-request-header http://hs.nhymxu.info:8008/quantumultx/Scripts/elsa-request-header.js
+#^https:\/\/pool\.elsanow\.io\/.*$ url script-request-header http://hs.nhymxu.info:8008/quantumultx/Scripts/elsa-request-header.js
 
 # lich viet
 ^https:\/\/api\.lichviet\.org\/user\/premiumstatus$ url script-response-body http://hs.nhymxu.info:8008/quantumultx/Scripts/lichviet.js
