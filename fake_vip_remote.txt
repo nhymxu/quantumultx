@@ -22,6 +22,9 @@ hostname = www.google.*, api.textnow.me, *.videostarapp.com, avatar-nct.nixcdn.c
 # Lang kingdom
 ^https:\/\/api\.langkingdom\.com\/payment\/get-subscription-plan$ url script-response-body http://hs.nhymxu.com:8008/quantumultx/Scripts/langkingdom.js
 
+# Apollo - reddit alternative client
+^https:\/\/apollopushserver\.xyz\/api\/lifetime_sale_is_on$ url script-response-body https://github.com/nhymxu/quantumultx/blob/main/Scripts/apollo.js
+
 # -----------------------------------------------------------------------------
 
 # Noto笔记Lifetime
