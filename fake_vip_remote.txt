@@ -2,42 +2,41 @@ hostname = www.google.*, api.textnow.me, *.videostarapp.com, avatar-nct.nixcdn.c
 
 
 # adguard premium
-^https:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ url script-response-body http://hs.nhymxu.com:8008/quantumultx/Scripts/adguard.js
+^https:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ url script-response-body https://raw.githubusercontent.com/nhymxu/quantumultx/main/scripts/adguard.js
 
 # elsa response
-#^https:\/\/pool\.elsanow\.io\/user\/api\/v1\/purchase$ url script-response-body http://hs.nhymxu.com:8008/quantumultx/Scripts/elsa-response.js
+#^https:\/\/pool\.elsanow\.io\/user\/api\/v1\/purchase$ url script-response-body https://raw.githubusercontent.com/nhymxu/quantumultx/main/scripts/elsa-response.js
 
 # elsa rewrite
 #^https:\/\/pool\.elsanow\.io\/.*$  url request-header (\r\n)x-session-token:.+(\r\n) request-header $1x-session-token: F3S0w0bysBQFdbjtxpFuruSAapef5RGwJ2SKaty+/RAShebJYgzo+f46k1UytIM8c5O0U5xzoMaO2zyRh7ifnIgZDGEMuSSkTb66Jk8KoHa4cHkHIxXtFC9ylek2EZida3S+ZXbNb85GRLPd4PH7bZTlNoMSsFbTdh61mSr85FRZ+/ql4F0ygeYD9CIAGPrPFtvHrRac+W2zg6JzjULbgw==
 
 # elsa rewrite header
-#^https:\/\/pool\.elsanow\.io\/.*$ url script-request-header http://hs.nhymxu.com:8008/quantumultx/Scripts/elsa-request-header.js
+#^https:\/\/pool\.elsanow\.io\/.*$ url script-request-header https://raw.githubusercontent.com/nhymxu/quantumultx/main/scripts/elsa-request-header.js
 
 # lich viet
-^https:\/\/api\.lichviet\.org\/user\/premiumstatus$ url script-response-body http://hs.nhymxu.com:8008/quantumultx/Scripts/lichviet.js
+^https:\/\/api\.lichviet\.org\/user\/premiumstatus$ url script-response-body https://raw.githubusercontent.com/nhymxu/quantumultx/main/scripts/lichviet.js
 
 # Memrise
-^https:\/\/api\.memrise\.com\/.+\/(me\/$|dashboard\/$|leaderboards\/following\/) url script-response-body http://hs.nhymxu.com:8008/quantumultx/Scripts/memrise.js
+^https:\/\/api\.memrise\.com\/.+\/(me\/$|dashboard\/$|leaderboards\/following\/) url script-response-body https://raw.githubusercontent.com/nhymxu/quantumultx/main/scripts/memrise.js
 
 # Lang kingdom
-^https:\/\/api\.langkingdom\.com\/payment\/get-subscription-plan$ url script-response-body http://hs.nhymxu.com:8008/quantumultx/Scripts/langkingdom.js
+^https:\/\/api\.langkingdom\.com\/payment\/get-subscription-plan$ url script-response-body https://raw.githubusercontent.com/nhymxu/quantumultx/main/scripts/langkingdom.js
 
 # Apollo
-https://apollopushserver.xyz/api/verify url script-response-body https://raw.githubusercontent.com/nhymxu/quantumultxX/main/script/apollo.js
-
+https://apollopushserver.xyz/api/verify url script-response-body https://raw.githubusercontent.com/nhymxu/quantumultx/main/scripts/apollo.js
 # -----------------------------------------------------------------------------
 
 # Noto笔记Lifetime
 # Airmail Premium
 # Weather Line trial
-^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body http://hs.nhymxu.com:8008/quantumultx/Scripts/revenuecat.js
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body https://raw.githubusercontent.com/nhymxu/quantumultx/main/scripts/revenuecat.js
 
 
 #mojo&noto
 #^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[a-zA-Z0-9_-]*$) url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/revenuecat.js
 
 #buyhack
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body http://hs.nhymxu.com:8008/quantumultx/Scripts/verify_receipt.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/nhymxu/quantumultx/main/scripts/verify_receipt.js
 
 
 #vsco
