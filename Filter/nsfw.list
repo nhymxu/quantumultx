@@ -1,9 +1,9 @@
 # > Pornhub
-DOMAIN-SUFFIX,phncdn.com,XXX
-DOMAIN-SUFFIX,phprcdn.com,XXX
-DOMAIN-SUFFIX,pornhub.com,XXX
-DOMAIN-SUFFIX,pornhubpremium.com,XXX
+DOMAIN-SUFFIX,phncdn.com,NSFW
+DOMAIN-SUFFIX,phprcdn.com,NSFW
+DOMAIN-SUFFIX,pornhub.com,NSFW
+DOMAIN-SUFFIX,pornhubpremium.com,NSFW
 
 # > sub-site
-DOMAIN-SUFFIX,xnxx.com,XXX
-DOMAIN-SUFFIX,xvideos.com,XXX
+DOMAIN-SUFFIX,xnxx.com,NSFW
+DOMAIN-SUFFIX,xvideos.com,NSFW
